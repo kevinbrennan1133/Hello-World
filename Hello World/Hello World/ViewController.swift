@@ -9,7 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var infoLabel: UILabel!
 
+    @IBAction func helloPressed(_ sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func clearPressed(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
